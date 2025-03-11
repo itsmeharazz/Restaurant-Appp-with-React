@@ -25,7 +25,7 @@ import cake_3 from "./Cake-3.jpg";
 import cake_4 from "./Cake-4.jpg";
 import cake_5 from "./Cake-5.jpg";
 import cake_6 from "./Cake-6.jpg";
-import cake_7 from "./Cake-7jpg";
+import cake_7 from "./Cake-7.jpg";
 import cake_8 from "./Cake-8.jpg";
 import cake_9 from "./Cake-9.jpg";
 
@@ -42,16 +42,16 @@ import dessert_10 from "./Dessert-10.jpg";
 import dessert_11 from "./Dessert-11.jpg";
 
 import noodles_1 from "./Noodles-1.png";
-import noodles_2 from "./Noodles-2.png";
-import noodles_3 from "./Noodles-3.png";
-import noodles_4 from "./Noodles-4.png";
-import noodles_5 from "./Noodles-5.png";
-import noodles_6 from "./Noodles-6.png";
-import noodles_7 from "./Noodles-7.png";
-import noodles_8 from "./Noodles-8.png";
-import noodles_9 from "./Noodles-9.png";
-import noodles_10 from "./Noodles-10.png";
-import noodles_11 from "./Noodles-11.png";
+import noodles_2 from "./Noodles-2.jpg";
+import noodles_3 from "./Noodles-3.jpg";
+import noodles_4 from "./Noodles-4.jpg";
+import noodles_5 from "./Noodles-5.jpg";
+import noodles_6 from "./Noodles-6.jpg";
+import noodles_7 from "./Noodles-7.jpg";
+import noodles_8 from "./Noodles-8.jpg";
+import noodles_9 from "./Noodles-9.jpg";
+import noodles_10 from "./Noodles-10.jpg";
+import noodles_11 from "./Noodles-11.jpg";
 
 import pasta_1 from "./Pasta-1.jpg";
 import pasta_2 from "./Pasta-2.jpg";
@@ -63,7 +63,7 @@ import pasta_7 from "./Pasta-7.jpg";
 import pasta_8 from "./Pasta-8.jpg";
 import pasta_9 from "./Pasta-9.jpg";
 import pasta_10 from "./Pasta-10.jpg";
-import pasta_11 from "./Pasta-11.jpg";
+import pasta_11 from "./Pasta11.jpg";
 
 import salad_1 from "./salad-1.jpg";
 import salad_2 from "./salad-2.jpg";
@@ -92,7 +92,6 @@ import sushi_2 from "./sushi-2.jpg";
 import sushi_3 from "./sushi-3.jpg";
 import sushi_4 from "./sushi-4.jpg";
 import sushi_5 from "./sushi-5.jpg";
-import sushi_6 from "./sushi-6.jpg";
 import sushi_7 from "./sushi-7.jpg";
 import sushi_8 from "./sushi-8.jpg";
 import sushi_9 from "./sushi-9.jpg";
@@ -188,15 +187,6 @@ export const dish = [
     _id: "5",
     name: "Sushi",
     image: sushi_5,
-    price: 18,
-    description:
-      "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
-  },
-  {
-    _id: "6",
-    name: "Sushi",
-    image: sushi_6,
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
