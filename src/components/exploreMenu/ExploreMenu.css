@@ -39,7 +39,7 @@
                     transition: 0.2s;
                 }
                 .active{
-                    border: 0.1em solid #d19a03;
+                    border: 0.3em solid #d19a03;
                     padding: 5px;
                 }
             }
