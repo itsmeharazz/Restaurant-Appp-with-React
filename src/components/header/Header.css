@@ -1,0 +1,52 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url(../../../public/Cover-1.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+&::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    left: 5%;
+    bottom: 10%;
+    z-index: 2;
+    color: #fff;
+    animation: fadeIn 3s;
+    h2{
+        font-weight: 500;
+        font-size: max(4.5vw,22px);
+    }
+    p{
+        font-size: 1vw;
+    }
+    button{
+    background-color: #d19a03;
+    padding:10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background: #701a1a;
+    }
+}
+
+}
+}
