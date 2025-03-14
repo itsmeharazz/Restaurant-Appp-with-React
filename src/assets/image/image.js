@@ -113,7 +113,7 @@ export const images = {
   cover_3,
   cross,
   plus,
-  crossDelete
+  crossDelete,
   deleteIcon,
 };
 // category list

@@ -1,10 +1,86 @@
-import React from 'react'
-import './Cart.css'
+import React, { useContext } from "react";
+import "./Cart.css";
+import { StoreContext } from "../../context/StoreContext";
+import { useNavigate } from "react-router-dom";
+import {images} from '../../assets/image/image';
 
 const Cart = () => {
+  const navigat = useNavigate();
+  const { cartItems, dish, removeForCard, getTotalCartAmount } =
+    useContext(StoreContext);
   return (
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, distinctio ex! Minus, quam quisquam? Aperiam provident eligendi quod adipisci itaque enim. Vitae libero deleniti tempore illum perferendis, repudiandae nisi officia sit sequi quasi facilis ipsam eum harum corporis eos laborum rem adipisci rerum nemo eveniet reiciendis! A eum pariatur vitae, voluptates similique sequi nam doloribus repudiandae odio blanditiis harum consectetur sunt neque praesentium? Autem delectus hic ipsam magni et, est necessitatibus mollitia rerum cum doloribus ad voluptatem! Recusandae provident voluptas quaerat error culpa dolore qui iusto dignissimos necessitatibus, impedit, nam fugit harum pariatur neque veritatis quae magni! Quod, magni dignissimos?</div>
-  )
-}
+    <div className='cart'>
+      <div className='cart-items'>
+        <div className='cart-items-title'>
+          <p>Image</p>
+          <p>Title</p>
+          <p>Price</p>
+          <p>Qunatity</p>
+          <p>Total</p>
+          <p>Remove</p>
+        </div>
+        <br />
+        <hr />
+        {dish.map((item, index) => {
+          if (cartItems[item._id] > 0) {
+            return (
+              <div>
+                <div className='cart-items-title cart-items-item'>
+                  <img src={item.image} alt='' />
+                  <p>{item.name}</p>
+                  <p> ${item.price} </p>
+                  <p> {cartItems[item._id]} </p>
+                  <p> ${item.price * cartItems[item._id]} </p>
+                  <p className='cross' onClick={() => removeForCard(item._id)}>
+                    {" "}
+                    <img src={images.deleteIcon} className="remove-icon" />{" "}
+                  </p>
+                </div>
+                <hr />
+              </div>
+            );
+          }
+        })}
+      </div>
+      <div className='cart-bottom'>
+        <div className='cart-total'>
+          <h2>Cart Total</h2>
+          <div className=''>
+            <div className='cart-total-details'>
+              <p>Sub Total</p>
+              <p>${getTotalCartAmount()}</p>
+            </div>
+            <hr />
+            <div className='cart-total-details'>
+              <p>Delivery Fee</p>
+              <p>${getTotalCartAmount() === 0 ? 0 : 2}</p>
+            </div>
+            <hr />
+            <div className='cart-total-details'>
+              <p>Total</p>
+              <p>
+                ${getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 2}
+              </p>
+            </div>
+            <hr />
+          </div>
+          <button className='' onClick={() => navigat("/order")}>
+            Proceed To Checkout
+          </button>
+          {/* <a href="/order" className="">Proceed To Checkout</a> */}
+        </div>
+        <div className='cart-promocode'>
+          <div className=''>
+            <p>If you have a promo code,Enter it here</p>
+            <div className='cart-promocode-input'>
+              <input type='text' placeholder='Promo Code' />
+              <button>Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Cart
+export default Cart;

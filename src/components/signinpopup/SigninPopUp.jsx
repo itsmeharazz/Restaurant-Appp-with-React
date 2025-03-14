@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './SigninPopUp.css';
-import { images } from '../../assets/image/image';
 
 const SigninPopUp = ({ setShowLogin }) => {
     const[currState, setCurrState] = useState('Login')
@@ -10,7 +9,7 @@ const SigninPopUp = ({ setShowLogin }) => {
         <div className='login-popup-title'>
           <h2> {currState} </h2>
           <img
-            src={images.crossDelete}
+            
             onClick={() => setShowLogin(false)}
             alt=''
           />
