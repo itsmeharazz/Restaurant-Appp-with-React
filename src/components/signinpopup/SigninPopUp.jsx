@@ -10,7 +10,7 @@ const SigninPopUp = ({ setShowLogin }) => {
         <div className='login-popup-title'>
           <h2> {currState} </h2>
           <img
-            src={images.cross_icon}
+            src={images.crossDelete}
             onClick={() => setShowLogin(false)}
             alt=''
           />
