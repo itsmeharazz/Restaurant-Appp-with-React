@@ -3,7 +3,8 @@ import logo from "./logo.png";
 import basket from "./basket icon.png";
 import cross from "./cross-icon.png";
 import plus from "./Plus_icon.png";
-
+import crossDelete from'./delete-icon-ios-14.png';
+import deleteIcon from './delete-icon.png';
 // cover images
 import cover_1 from "./Cover-1.png";
 import cover_2 from "./Cover-2.png";
@@ -112,6 +113,8 @@ export const images = {
   cover_3,
   cross,
   plus,
+  crossDelete
+  deleteIcon,
 };
 // category list
 export const category = [
