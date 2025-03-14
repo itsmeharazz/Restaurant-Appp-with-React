@@ -154,7 +154,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "2",
@@ -163,7 +163,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "3",
@@ -172,7 +172,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "4",
@@ -181,7 +181,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "5",
@@ -190,7 +190,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "7",
@@ -199,7 +199,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "8",
@@ -208,7 +208,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "9",
@@ -217,7 +217,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "10",
@@ -226,7 +226,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "11",
@@ -235,7 +235,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "12",
@@ -244,7 +244,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "13",
@@ -253,7 +253,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "14",
@@ -262,7 +262,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "15",
@@ -271,7 +271,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   {
     _id: "16",
@@ -280,7 +280,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "sushi",
+    category: "Sushi",
   },
   // Salad food items
   {
@@ -290,7 +290,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "18",
@@ -299,7 +299,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "19",
@@ -308,7 +308,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "20",
@@ -317,7 +317,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "21",
@@ -326,7 +326,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "22",
@@ -335,7 +335,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "23",
@@ -344,7 +344,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "24",
@@ -353,7 +353,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "25",
@@ -362,7 +362,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "26",
@@ -371,7 +371,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "27",
@@ -380,7 +380,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   // noodles food items
   {
@@ -390,7 +390,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "salad",
+    category: "Salad",
   },
   {
     _id: "29",
@@ -408,7 +408,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   {
     _id: "31",
@@ -417,7 +417,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   {
     _id: "32",
@@ -426,7 +426,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   {
     _id: "33",
@@ -435,7 +435,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   {
     _id: "34",
@@ -444,7 +444,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   {
     _id: "36",
@@ -453,7 +453,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   {
     _id: "37",
@@ -462,7 +462,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   {
     _id: "38",
@@ -471,7 +471,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   {
     _id: "39",
@@ -480,7 +480,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   {
     _id: "40",
@@ -489,7 +489,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "noodles",
+    category: "Noodles",
   },
   // Cake food items
   {
@@ -499,7 +499,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "cake",
+    category: "Cake",
   },
   {
     _id: "42",
@@ -508,7 +508,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "cake",
+    category: "Cake",
   },
   {
     _id: "43",
@@ -517,7 +517,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "cake",
+    category: "Cake",
   },
   {
     _id: "44",
@@ -526,7 +526,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "cake",
+    category: "Cake",
   },
   {
     _id: "45",
@@ -535,7 +535,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "cake",
+    category: "Cake",
   },
   {
     _id: "46",
@@ -544,7 +544,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "cake",
+    category: "Cake",
   },
   {
     _id: "47",
@@ -553,7 +553,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "cake",
+    category: "Cake",
   },
   {
     _id: "48",
@@ -562,7 +562,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "cake",
+    category: "Cake",
   },
   {
     _id: "49",
@@ -571,7 +571,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "cake",
+    category: "Cake",
   },
   // dessert food items
   {
@@ -581,7 +581,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "51",
@@ -590,7 +590,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "52",
@@ -599,7 +599,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "53",
@@ -608,7 +608,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "54",
@@ -617,7 +617,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "55",
@@ -626,7 +626,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "56",
@@ -635,7 +635,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "57",
@@ -644,7 +644,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "58",
@@ -653,7 +653,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "59",
@@ -662,7 +662,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   {
     _id: "60",
@@ -671,7 +671,7 @@ export const dish = [
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "dessert",
+    category: "Dessert",
   },
   // Pasta food items
   {
@@ -773,7 +773,7 @@ export const dish = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Pasta",
   },
-  // Sandwich food items 
+  // Sandwich food items
   {
     _id: "72",
     name: "Sandwich",
@@ -855,5 +855,4 @@ export const dish = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Sandwich",
   },
- 
 ];
