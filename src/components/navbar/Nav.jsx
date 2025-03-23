@@ -33,9 +33,9 @@ const Nav = ({ setShowLogin }) => {
       </ul>
       <div className='nav-right'>
         <div className='busket'>
-          <Link to='/cart'>
-            <img src={images.basket} className='cart' alt='' />
-          </Link>
+          <Link to={'/cart'}>
+           <img src={images.basket} alt="Basket" />
+            </Link>
           <div className='count-items'>
             <span>0</span>
           </div>
